@@ -14,6 +14,17 @@ v0.1.0
 pip install simple-color-palette
 ``` -->
 
+## API
+
+> TODO
+
+- `Palette` dataclass
+- `Color` dataclass
+- `Components` dataclass
+- `save` function
+- `load` function
+- `from_hex` function
+
 ## Usage
 
 ```python
