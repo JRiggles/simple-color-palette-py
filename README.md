@@ -95,8 +95,8 @@ Output format
 }
 ```
 
-#### `from_hex(hex_str: str) -> Color`
-Creates a `Color` object from a hex string
+#### `from_hex(hex_str: str) -> Components`
+Creates a `Components` object from a hex string
 
 | Parameter | Type  | Description                                                          |
 | --------- | ----- | -------------------------------------------------------------------- |
