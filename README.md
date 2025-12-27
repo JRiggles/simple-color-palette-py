@@ -95,12 +95,12 @@ Output format
 }
 ```
 
-#### `from_hex(hex_str: str) -> Components`
-Creates a `Components` object from a hex string
+#### `from_hex(hex_string: str) -> Components`
+Creates a `Components` object from a hex color code string, e.g. "#DEADBEEF"
 
-| Parameter | Type  | Description                                                          |
-| --------- | ----- | -------------------------------------------------------------------- |
-| `hex_str` | `str` | 3, 4, 6, or 8-digit RGB hex color code (the leading '#' is optional) |
+| Parameter    | Type  | Description                                                          |
+| ------------ | ----- | -------------------------------------------------------------------- |
+| `hex_string` | `str` | 3, 4, 6, or 8-digit RGB hex color code (the leading '#' is optional) |
 
 ```python
 hex_color = '#ff3344'
