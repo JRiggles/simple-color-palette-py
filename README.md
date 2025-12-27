@@ -62,7 +62,7 @@ Represents a named collection of colors.
 palette = Palette(name='CMY', colors=[cyan, magenta, yellow])
 ```
 
-## Funtions
+## Functions
 
 #### `load(path: pathlib.Path | str) -> Palette`
 Loads a `*.color-palette` JSON file into a `Palette` object
