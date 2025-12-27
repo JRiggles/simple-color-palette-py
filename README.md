@@ -4,15 +4,13 @@ v0.1.0
 ### A Python package for the [Simple Color Palette](https://simplecolorpalette.com) format — a minimal JSON-based file format for defining color palettes (MIT license)
 
 ## Latest Changes
-- Initial commit
+- Initial release
 
 ## Install
 
-> TODO: publish to package index
-
-<!-- ```sh
+```sh
 pip install simple-color-palette
-``` -->
+```
 
 ## API Reference
 
