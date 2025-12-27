@@ -17,16 +17,17 @@ pip install simple-color-palette
 ## API Reference
 
 ### Dataclasses
+`simplecolorpalette` provides three Python `dataclass`es for defining a color `Palette`, its constituent `Color`s, and the RGB `Components` of those colors. Each dataclass field can be given either positionally or by keyword.
 
 #### `Components`
-Stores linear sRGB color channel data
+Stores linear sRGB color channel data. Values outside the range of 0.0 to 1.0 are allowed for the `red`, `green`, and `blue` components. Opacity values outside the 0.0 to 1.0 range will be clamped.
 
-| Field / Index | Type    | Required | Description                                                  |
-| ------------- | ------- | -------- | ------------------------------------------------------------ |
-| `red`         | `float` | **Yes**  | Red channel (linear sRGB)                                    |
-| `green`       | `float` | **Yes**  | Green channel (linear sRGB)                                  |
-| `blue`        | `float` | **Yes**  | Blue channel (linear sRGB)                                   |
-| `opacity`     | `float` | No       | Optional opacity/alpha channel. Defaults to `1.0` if omitted |
+| Field     | Type    | Required | Description                                                  |
+| --------- | ------- | -------- | ------------------------------------------------------------ |
+| `red`     | `float` | **Yes**  | Red channel (linear sRGB)                                    |
+| `green`   | `float` | **Yes**  | Green channel (linear sRGB)                                  |
+| `blue`    | `float` | **Yes**  | Blue channel (linear sRGB)                                   |
+| `opacity` | `float` | No       | Optional opacity/alpha channel. Defaults to `1.0` if omitted |
 
 ```python
 cyan_components = Components(0.0, 1.0, 1.0)
@@ -35,7 +36,7 @@ yellow_components = Components(1.0, 1.0, 0.0)
 ```
 
 #### `Color`
-Represents a single color swatch in a palette; defined by its red, green, blue, and (optionally) alpha components
+Represents a single color swatch in a palette; defined by its red, green, blue, and (optionally) alpha components.
 
 | Field        | Type         | Required | Description                           |
 | ------------ | ------------ | -------- | ------------------------------------- |
@@ -50,7 +51,7 @@ yellow = Color(name='Yellow', components=yellow_components)
 
 #### `Palette`
 
-Represents a named collection of colors
+Represents a named collection of colors.
 
 | Field    | Type          | Required | Description                                               |
 |----------|---------------|----------|-----------------------------------------------------------|
