@@ -1,4 +1,4 @@
-# simple-color-palette-python
+# simple-color-palette-py
 v0.1.0
 
 ### A Python package for the [Simple Color Palette](https://simplecolorpalette.com) format — a minimal JSON-based file format for defining color palettes (MIT license)
