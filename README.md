@@ -30,9 +30,9 @@ Stores linear sRGB color channel data. Values outside the range of 0.0 to 1.0 ar
 | `opacity` | `float` | No       | Optional opacity/alpha channel. Defaults to `1.0` if omitted |
 
 ```python
-cyan_components = Components(0.0, 1.0, 1.0)
-magenta_components = Components(1.0, 0.0, 1.0)
-yellow_components = Components(1.0, 1.0, 0.0)
+cyan_components = Components(red=0.0, green=1.0, blue=1.0)
+magenta_components = Components(red=1.0, green=0.0, blue=1.0)
+yellow_components = Components(red=1.0, green=1.0, blue=0.0)
 ```
 
 #### `Color`
