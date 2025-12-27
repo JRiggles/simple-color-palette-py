@@ -17,7 +17,7 @@ pip install simple-color-palette
 ## API Reference
 
 ### Dataclasses
-`simplecolorpalette` provides three Python `dataclass`es for defining a color `Palette`, its constituent `Color`s, and the RGB `Components` of those colors. Each dataclass field can be given either positionally or by keyword.
+`simplecolorpalette` provides Python `dataclass`es for defining a color `Palette`, its constituent `Color`s, and the RGB `Components` of those colors. Each dataclass field can be given either positionally or by keyword.
 
 #### `Components`
 Stores linear sRGB color channel data. Values outside the range of 0.0 to 1.0 are allowed for the `red`, `green`, and `blue` components. Opacity values outside the 0.0 to 1.0 range will be clamped.
@@ -162,7 +162,7 @@ print(palette_data)
 > - The `simplecolorpalette.save` and `simplecolorpalette.load` functions will accept file paths with either a `*.color-palette` or `*.json` file extension, other file extensions will raise a `ValueError`.
 > - Output files saved with `save()` will use the `*.color-palette` extension.
 
-If you want the palette data in dictionary (`dict`) format...
+If you want to access `Palette` data in `dict` format, use `dataclasses.asdict`:
 ```python
 from dataclasses import asdict
 
