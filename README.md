@@ -86,11 +86,11 @@ save(palette, 'my_palette.color-palette')
 Output format
 ```json
 {
-  'name': 'CMY',
-  'colors': [
-    { 'name': 'Cyan', 'components': [0.0, 1.0, 1.0] },
-    { 'name': 'Magenta', 'components': [1.0, 0.0, 1.0] },
-    { 'name': 'Yellow', 'components': [1.0, 1.0, 0.0] }
+  "name": "CMY",
+  "colors": [
+    { "name": "Cyan", "components": [0.0, 1.0, 1.0] },
+    { "name": "Magenta", "components": [1.0, 0.0, 1.0] },
+    { "name": "Yellow", "components": [1.0, 1.0, 0.0] }
   ]
 }
 ```
