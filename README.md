@@ -3,6 +3,10 @@ v0.1.0
 
 ### A Python package for the [Simple Color Palette](https://simplecolorpalette.com) format — a minimal JSON-based file format for defining color palettes (MIT license)
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/simple-color-palette?period=total&units=ABBREVIATION&left_color=BLACK&right_color=RED&left_text=downloads)](https://pepy.tech/projects/simple-color-palette)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/simple-color-palette?period=monthly&units=ABBREVIATION&left_color=BLACK&right_color=BRIGHTGREEN&left_text=downloads%2Fmonth)](https://pepy.tech/projects/simple-color-palette)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/simple-color-palette?period=weekly&units=ABBREVIATION&left_color=BLACK&right_color=BLUE&left_text=downloads%2Fweek)](https://pepy.tech/projects/simple-color-palette)
+
 ## Latest Changes
 - Initial release
 
